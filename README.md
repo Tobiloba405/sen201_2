@@ -1,17 +1,13 @@
-# sen201_2
 # SEN 201 Assignment
 
 ## Project Title
-Student Grading System
+Student Registration System
 
 ## Name
 Adesanya Oluwatobiloba
 
-## Matric no
+## Matric
 24/15104
-
-## dept
-computer science
 
 ## Course
 SEN 201 – Software Engineering
@@ -19,10 +15,11 @@ SEN 201 – Software Engineering
 ## Programming Language
 Python
 
+
 ---
 
 ## Project Description
-The Student Grading System is a simple Python program that collects a student’s name and score, then determines and displays the appropriate grade based on predefined conditions.
+The Student Registration System is a simple Python program that collects basic student information such as name, matriculation number, and department, and then displays the entered details.
 
 ---
 
@@ -31,54 +28,50 @@ The Student Grading System is a simple Python program that collects a student’
 ### 1. Requirement Analysis
 The system is required to:
 - Accept student name
-- Accept student score
-- Determine grade based on score
-- Display student name, score, and grade
+- Accept matriculation number
+- Accept department
+- Display the student details
 
 ---
 
 ### 2. System Design
-The system design follows a simple decision-based structure:
-- Input student details
-- Compare score with grading conditions
-- Assign appropriate grade
-- Display results
+The system design follows a simple input-output structure:
+- User enters student information
+- System processes the input
+- System displays the entered details
 
 ---
 
 ### 3. Implementation
 The system was implemented using Python.
-Key programming concepts used include:
+The following concepts were used:
 - Variables
-- Input and output
-- Conditional statements (if, elif, else)
+- Input and output statements
+- Sequential program flow
 
 ---
 
 ### 4. Testing
-The program was tested using different input values to ensure correctness.
+The program was tested using different student details to ensure it works correctly.
 
-| Input Score | Expected Output |
-|------------|----------------|
-| 85 | Grade A |
-| 65 | Grade B |
-| 55 | Grade C |
-| 40 | Grade F |
+| Input | Expected Output |
+|------|----------------|
+| Name, Matric No, Department | Student details displayed |
 
-All test cases produced the correct results.
+The program produced correct output during testing.
 
 ---
 
 ### 5. Deployment
-The project was deployed by uploading the source code to a public GitHub repository, making it accessible for review and assessment.
+The project was deployed by uploading the Python source files to a public GitHub repository.
 
 ---
 
 ### 6. Maintenance
-Future improvements may include:
-- Supporting multiple students
-- Saving results to a file
-- Adding GPA calculation
+Possible future improvements include:
+- Registering multiple students
+- Saving student data to a file
+- Adding input validation
 
 ---
 
@@ -88,4 +81,4 @@ Future improvements may include:
 2. Clone or download the repository
 3. Run the program using:
    ```bash
-   python grading_system.py
+   python student_registration.py
